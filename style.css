@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body { /*Talvez seja melhor por no container*/
+    background: #EEEDEF;
+    padding-top: 100px;
+}
+
+.container {
+    max-width: 920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    width: 36px;
+    margin-right: 15px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+.attv, .nota{
+    font-size: 24px;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+
+.btn {
+    font-size: 24px;
+    background-color: #118E40;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    border-bottom: 2px solid black;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+td img {
+    width: 35px;
+}
+
+
+.resultado_ap {
+    background-color: #118E40;
+    font-weight: bold;
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.resultado_rep {
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+}
+
